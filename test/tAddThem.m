@@ -3,6 +3,8 @@ classdef tAddThem < matlab.unittest.TestCase
     methods (TestClassSetup)
         function throwStartDiagnostic(testCase)
             disp(['Running the test: ' class(testCase)]);
+            oldPath = addpath('..\code');
+            testCase.addTeardown(@()path(oldPath));
         end
     end
 
