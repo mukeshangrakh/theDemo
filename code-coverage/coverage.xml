@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<coverage branch-rate="NaN" branches-covered="NaN" branches-valid="NaN" complexity="NaN" line-rate="0.47059" lines-covered="8" lines-valid="17" timestamp="1669714156.5049" version="">
+<coverage branch-rate="NaN" branches-covered="NaN" branches-valid="NaN" complexity="NaN" line-rate="0.32" lines-covered="8" lines-valid="25" timestamp="1669715699.2015" version="">
   <sources>
     <source>/home/runner/work/theDemo/theDemo/</source>
   </sources>
   <packages>
+    <package branch-rate="NaN" complexity="NaN" line-rate="0" name="utils">
+      <classes>
+        <class branch-rate="NaN" complexity="NaN" filename="+utils/runCodeCoverage.m" line-rate="0" name="utils.runCodeCoverage">
+          <methods/>
+          <lines>
+            <line hits="0" number="1"/>
+            <line hits="0" number="5"/>
+            <line hits="0" number="6"/>
+            <line hits="0" number="7"/>
+            <line hits="0" number="8"/>
+            <line hits="0" number="9"/>
+            <line hits="0" number="10"/>
+            <line hits="0" number="14"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
     <package branch-rate="NaN" complexity="NaN" line-rate="0.47059" name="">
       <classes>
         <class branch-rate="NaN" complexity="NaN" filename="code/addThem.m" line-rate="0.66667" name="addThem">
