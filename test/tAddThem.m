@@ -15,6 +15,7 @@ classdef tAddThem < matlab.unittest.TestCase
             actualSum = addThem(20, 20);
             expectedSum = 40;
             testCase.verifyEqual(actualSum, expectedSum, 'Value of actual and expected sum do not match');
+
         end
     end
 
