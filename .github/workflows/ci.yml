@@ -35,3 +35,14 @@ jobs:
         with:
           test-results-junit: test-results/results.xml
           code-coverage-cobertura: code-coverage/coverage.xml
+          
+      #Add files to repository
+      - name: Add-files
+        if: always()
+        continue-on-error: true
+        run: |
+          git config --global user.email "mangrakh@mathworks.com" && git config --global user.name "mukeshangrakh"
+          git add test-results/*
+          git add code-coverage/*
+          git commit -m "test report captured"
+          git push
