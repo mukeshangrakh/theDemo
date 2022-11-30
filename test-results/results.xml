@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" name="tAddThem" skipped="0" tests="1" time="0.52334">
-    <testcase classname="tAddThem" name="verifySumPositive" time="0.52334"/>
+  <testsuite errors="0" failures="0" name="tAddThem" skipped="0" tests="2" time="0.67374">
+    <testcase classname="tAddThem" name="verifySumPositive" time="0.51966"/>
+    <testcase classname="tAddThem" name="verifySumNegative" time="0.15408"/>
   </testsuite>
 </testsuites>
