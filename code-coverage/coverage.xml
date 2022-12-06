@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<coverage branch-rate="NaN" branches-covered="NaN" branches-valid="NaN" complexity="NaN" line-rate="0.6" lines-covered="12" lines-valid="20" timestamp="1669789421.3583" version="">
+<coverage branch-rate="NaN" branches-covered="NaN" branches-valid="NaN" complexity="NaN" line-rate="0.48" lines-covered="12" lines-valid="25" timestamp="1670302013.2472" version="">
   <sources>
     <source>/home/runner/work/theDemo/theDemo/</source>
   </sources>
   <packages>
-    <package branch-rate="NaN" complexity="NaN" line-rate="0" name="utils">
+    <package branch-rate="NaN" complexity="NaN" line-rate="0.85714" name="">
       <classes>
-        <class branch-rate="NaN" complexity="NaN" filename="+utils/runCodeCoverage.m" line-rate="0" name="utils.runCodeCoverage">
+        <class branch-rate="NaN" complexity="NaN" filename="createGITRepo.m" line-rate="0" name="createGITRepo">
           <methods/>
           <lines>
-            <line hits="0" number="1"/>
-            <line hits="0" number="5"/>
-            <line hits="0" number="6"/>
-            <line hits="0" number="7"/>
-            <line hits="0" number="8"/>
-            <line hits="0" number="9"/>
+            <line hits="0" number="3"/>
             <line hits="0" number="10"/>
-            <line hits="0" number="14"/>
           </lines>
         </class>
-      </classes>
-    </package>
-    <package branch-rate="NaN" complexity="NaN" line-rate="1" name="">
-      <classes>
         <class branch-rate="NaN" complexity="NaN" filename="code/addThem.m" line-rate="1" name="addThem">
           <methods/>
           <lines>
@@ -65,6 +55,26 @@
             <line hits="1" number="22"/>
             <line hits="1" number="23"/>
             <line hits="1" number="24"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package branch-rate="NaN" complexity="NaN" line-rate="0" name="utils">
+      <classes>
+        <class branch-rate="NaN" complexity="NaN" filename="+utils/runCodeCoverage.m" line-rate="0" name="utils.runCodeCoverage">
+          <methods/>
+          <lines>
+            <line hits="0" number="1"/>
+            <line hits="0" number="8"/>
+            <line hits="0" number="9"/>
+            <line hits="0" number="10"/>
+            <line hits="0" number="11"/>
+            <line hits="0" number="13"/>
+            <line hits="0" number="14"/>
+            <line hits="0" number="15"/>
+            <line hits="0" number="17"/>
+            <line hits="0" number="18"/>
+            <line hits="0" number="22"/>
           </lines>
         </class>
       </classes>
